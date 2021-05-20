@@ -10,51 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9540f331-d0f4-4fdf-97aa-d0d5508d63fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils/GlideConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils/GlideThumbnailTransformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils/GlideUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils/HttpsGlideModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils/UnsafeOkHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/wangchuan/glideutils/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlideUtils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GlideUtils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +139,19 @@
       <option name="presentableId" value="Default" />
       <updated>1621477097922</updated>
     </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1621490490798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621490490798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="692" y="274" key="#Gradle" timestamp="1621477249931">
@@ -200,10 +170,22 @@
       <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state x="545" y="262" key="AndroidCreateResourceFileDialog/0.23.1920.968@0.23.1920.968" timestamp="1621489705012" />
+    <state x="473" y="23" width="973" height="968" key="CommitChangelistDialog2" timestamp="1621490490534">
+      <screen x="0" y="23" width="1920" height="968" />
+    </state>
+    <state x="473" y="23" width="973" height="968" key="CommitChangelistDialog2/0.23.1920.968@0.23.1920.968" timestamp="1621490490534" />
     <state x="352" y="58" key="SettingsEditor" timestamp="1621481325381">
       <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state x="352" y="58" key="SettingsEditor/0.23.1920.968@0.23.1920.968" timestamp="1621481325381" />
+    <state x="460" y="184" key="Vcs.Push.Dialog.v2" timestamp="1621491352306">
+      <screen x="0" y="23" width="1920" height="968" />
+    </state>
+    <state x="460" y="184" key="Vcs.Push.Dialog.v2/0.23.1920.968@0.23.1920.968" timestamp="1621491352306" />
+    <state x="662" y="382" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1621491349707">
+      <screen x="0" y="23" width="1920" height="968" />
+    </state>
+    <state x="662" y="382" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1920.968@0.23.1920.968" timestamp="1621491349707" />
     <state x="621" y="84" key="psd.add.module.dependency.panel.dimension" timestamp="1621477427048">
       <screen x="0" y="23" width="1920" height="968" />
     </state>
