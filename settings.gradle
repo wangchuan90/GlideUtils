@@ -1,0 +1,3 @@
+rootProject.name = "GlideUtils"
+include ':app'
+include ':GlideUtils'
