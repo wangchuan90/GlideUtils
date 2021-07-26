@@ -8,9 +8,7 @@ import android.text.TextUtils;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.MultiTransformation;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.model.GlideUrl;
 import com.bumptech.glide.load.model.LazyHeaders;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
@@ -29,9 +27,6 @@ public class GlideUtils {
 
     final int defautImage = GlideConfig.INSTANCE.getDefaultImg();
 
-    private Context context;
-    private RequestManager requestManager;
-
     private GlideUtils() {
     }
 
@@ -42,11 +37,6 @@ public class GlideUtils {
             glideUtils = new GlideUtils();
         }
         return glideUtils;
-    }
-
-    public void init(Context context) {
-        this.context = context;
-        requestManager = Glide.with(context);
     }
 
     /**
@@ -68,15 +58,16 @@ public class GlideUtils {
         return GlideConfig.INSTANCE.CircleCropOptions();
     }
 
-
-    public GlideUrl getGlideUrl(String path) {
+    /**
+     * 图片请求加载添加头参数
+     */
+    public GlideUrl addHeaderUrl(String path, String key, String value) {
         if (TextUtils.isEmpty(path)) {
             return null;
         }
         GlideUrl glideUrl = new GlideUrl(path, new LazyHeaders.Builder()
-                .addHeader("Referer", "*.heyporn.com/*")
+                .addHeader(key, value)
                 .build());
-//        KLog.i("headeer", JSON.toJSON(glideUrl.getHeaders()));
         return glideUrl;
     }
 
@@ -84,7 +75,7 @@ public class GlideUtils {
     /**
      * 清除缓存
      */
-    public void clear() {
+    public void clear(Context context) {
         if (context == null) {
             return;
         }
@@ -95,19 +86,10 @@ public class GlideUtils {
      * 公共图片加载
      */
     public void commonLoadImg(RequestOptions options, @Nullable Object model, ImageView imageView) {
-        if (model == null || imageView == null || requestManager == null) {
+        if (model == null || imageView == null) {
             return;
         }
-        if (model instanceof String) {
-            String url = String.valueOf(model);
-            if (TextUtils.isEmpty(url)) {
-                return;
-            }
-            requestManager.load(getGlideUrl(url)).apply(options).into(imageView);
-        } else {
-            requestManager.load(model).apply(options).into(imageView);
-        }
-
+        Glide.with(imageView).load(model).apply(options).into(imageView);
     }
 
     /**
@@ -117,17 +99,13 @@ public class GlideUtils {
         commonLoadImg(getCacheOptions(), model, imageView);
     }
 
-    public void loadImg(String url, ImageView imageView) {
-        commonLoadImg(getCacheOptions(), url, imageView);
+    /**
+     * 加载指定宽高
+     */
+    public void loadImg(int width, int height, @Nullable Object model, ImageView imageView) {
+        commonLoadImg(getCacheOptions().override(width, height), model, imageView);
     }
 
-    public void loadImg(int width, int heigh, @Nullable Object model, ImageView imageView) {
-        commonLoadImg(getCacheOptions().override(width, heigh), model, imageView);
-    }
-
-    public void loadCenterCropImg(@Nullable Object model, ImageView imageView) {
-        commonLoadImg(getCacheOptions().centerCrop(), model, imageView);
-    }
 
     /**
      * 加载圆形图片
@@ -149,7 +127,7 @@ public class GlideUtils {
 //                颜色处理
                 new ColorFilterTransformation(Color.argb(66, 54, 54, 54)));
         RequestOptions requestOptions = RequestOptions.bitmapTransform(multi).error(resourceId);
-        Glide.with(imageView.getContext())
+        Glide.with(imageView)
                 .load(model)
                 .apply(requestOptions)
                 //淡入淡出

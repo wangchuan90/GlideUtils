@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9540f331-d0f4-4fdf-97aa-d0d5508d63fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GlideUtils/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GlideUtils/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils/GlideUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils/GlideUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +22,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/wangchuan/.android/avd/Nexus_5_Edited_API_29.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@e9ee0d08]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -44,22 +47,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/wangchuan/.android/avd/Nexus_5_Edited_API_29.avd" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-20T05:50:54.295777Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
-    <property name="project.structure.last.edited" value="Variables" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recommended.upgrade.do.not.ask.for.version" value="4.1.2" />
-    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PsdUISettings">
-    <option name="MODULE_TAB" value="Default Config" />
+    <option name="MODULE_TAB" value="Properties" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wangchuan.glideutils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/GlideUtils/src/main/java/com/wangchuan/glideutils" />
@@ -158,10 +167,15 @@
       <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state x="692" y="274" key="#Gradle/0.23.1920.968@0.23.1920.968" timestamp="1621477249931" />
-    <state x="366" y="183" key="#PSD" timestamp="1621489602182">
-      <screen x="0" y="23" width="1920" height="968" />
+    <state x="390" y="185" key="#PSD" timestamp="1627308752169">
+      <screen x="0" y="0" width="2048" height="1122" />
     </state>
+    <state x="390" y="185" key="#PSD/0.0.2048.1122@0.0.2048.1122" timestamp="1627308752169" />
     <state x="366" y="183" key="#PSD/0.23.1920.968@0.23.1920.968" timestamp="1621489602182" />
+    <state x="72" y="38" key="#Project_Structure" timestamp="1627308697284">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="72" y="38" key="#Project_Structure/0.0.2048.1122@0.0.2048.1122" timestamp="1627308697284" />
     <state x="670" y="402" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1621489662507">
       <screen x="0" y="23" width="1920" height="968" />
     </state>
@@ -170,13 +184,23 @@
       <screen x="0" y="23" width="1920" height="968" />
     </state>
     <state x="545" y="262" key="AndroidCreateResourceFileDialog/0.23.1920.968@0.23.1920.968" timestamp="1621489705012" />
-    <state x="473" y="23" width="973" height="968" key="CommitChangelistDialog2" timestamp="1621490490534">
-      <screen x="0" y="23" width="1920" height="968" />
+    <state x="505" y="0" width="973" height="968" key="CommitChangelistDialog2" timestamp="1627308879302">
+      <screen x="0" y="0" width="2048" height="1122" />
     </state>
+    <state x="505" y="0" key="CommitChangelistDialog2/0.0.2048.1122@0.0.2048.1122" timestamp="1627308879302" />
     <state x="473" y="23" width="973" height="968" key="CommitChangelistDialog2/0.23.1920.968@0.23.1920.968" timestamp="1621490490534" />
-    <state x="352" y="58" key="SettingsEditor" timestamp="1621481325381">
-      <screen x="0" y="23" width="1920" height="968" />
+    <state x="198" y="95" key="DiffContextDialog" timestamp="1627308814400">
+      <screen x="0" y="0" width="2048" height="1122" />
     </state>
+    <state x="198" y="95" key="DiffContextDialog/0.0.2048.1122@0.0.2048.1122" timestamp="1627308814400" />
+    <state x="719" y="198" key="FileChooserDialogImpl" timestamp="1627308673098">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="719" y="198" key="FileChooserDialogImpl/0.0.2048.1122@0.0.2048.1122" timestamp="1627308673098" />
+    <state x="375" y="41" key="SettingsEditor" timestamp="1627308302468">
+      <screen x="0" y="0" width="2048" height="1122" />
+    </state>
+    <state x="375" y="41" key="SettingsEditor/0.0.2048.1122@0.0.2048.1122" timestamp="1627308302468" />
     <state x="352" y="58" key="SettingsEditor/0.23.1920.968@0.23.1920.968" timestamp="1621481325381" />
     <state x="460" y="184" key="Vcs.Push.Dialog.v2" timestamp="1621491352306">
       <screen x="0" y="23" width="1920" height="968" />
